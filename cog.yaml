@@ -1,0 +1,11 @@
+build:
+  gpu: true
+  cuda: "12.1"
+  system_packages:
+    - git
+    - wget
+  python_packages:
+    - runpod==0.8.0
+    - requests==2.32.3
+
+predict: predict.py:Predictor
